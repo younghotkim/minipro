@@ -143,12 +143,15 @@ public class PhoneApp {
 				}
 
 				String[] pInfo = line.split(",");
-
+				/*
 				String name = pInfo[0];
 				String hp = pInfo[1];
 				String company = pInfo[2];
 
 				Person p = new Person(name, hp, company);
+				*/
+				
+				Person p = new Person(pInfo[0],pInfo[1],pInfo[2]);
 
 				pList.add(p);
 				
