@@ -37,14 +37,15 @@ public class Person {
 		this.hp = hp;
 	}
 	
+	
+	
 	/////////////////////일반 메소드//////////////////
 	
-	public void showInfo() {
-		
-		System.out.println(this.name + this.hp + this.company);
-		
+	@Override
+	public String toString() {
+		return "Person [name=" + name + ", hp=" + hp + ", company=" + company + "]";
 	}
-	
+
 	
 
 
